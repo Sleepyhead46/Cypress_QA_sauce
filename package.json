@@ -1,0 +1,32 @@
+{
+  "name": "cypress_saucedemo_automation",
+  "version": "1.0.0",
+  "description": "Production-ready Cypress E2E Test Automation Framework for SauceDemo",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:firefox": "cypress run --browser firefox",
+    "cypress:run:edge": "cypress run --browser edge",
+    "cypress:run:headless": "cypress run --headless",
+    "test": "cypress run",
+    "test:auth": "cypress run --spec 'cypress/e2e/01_auth.cy.js'",
+    "test:inventory": "cypress run --spec 'cypress/e2e/02_inventory_sorting.cy.js'",
+    "test:cart": "cypress run --spec 'cypress/e2e/03_cart_operations.cy.js'",
+    "test:checkout": "cypress run --spec 'cypress/e2e/04_checkout_e2e.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^16.1.0"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "e2e-testing",
+    "page-object-model",
+    "saucedemo",
+    "quality-assurance"
+  ],
+  "author": "Senior QA Automation Engineer",
+  "license": "ISC"
+}

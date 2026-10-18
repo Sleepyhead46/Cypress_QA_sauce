@@ -1,0 +1,25 @@
+{
+  "validCustomer": {
+    "firstName": "Alex",
+    "lastName": "Mercer",
+    "postalCode": "90210"
+  },
+  "missingFirstName": {
+    "firstName": "",
+    "lastName": "Mercer",
+    "postalCode": "90210",
+    "expectedError": "Error: First Name is required"
+  },
+  "missingLastName": {
+    "firstName": "Alex",
+    "lastName": "",
+    "postalCode": "90210",
+    "expectedError": "Error: Last Name is required"
+  },
+  "missingPostalCode": {
+    "firstName": "Alex",
+    "lastName": "Mercer",
+    "postalCode": "",
+    "expectedError": "Error: Postal Code is required"
+  }
+}

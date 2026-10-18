@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+cypress/downloads/
+
+# Environment and sensitive keys
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
